@@ -1,0 +1,103 @@
+.btn {
+    border-radius: 5px;
+    margin-right: 30px;
+    display: inline-block;
+    padding: 0.4rem 1.3rem;
+    font-size: 1rem;
+    text-align: center;
+    border: 2px solid rgb(0, 17, 86);
+    cursor: pointer;
+    border-radius: 2px;
+    min-width: 130px;
+    text-transform: uppercase;
+    font-weight: bold;
+    overflow: hidden;
+    transition: background-color 0.3s ease;
+    filter: drop-shadow(5px 5px 15px #000);
+}
+
+/* Кнопки для меню */
+.home-button {
+    background-color: rgba(0, 17, 86, 0.182);
+    border-radius: 5px;
+}
+
+.home-button:hover {
+    background-color: rgb(0, 17, 86);
+    transition: background-color 0.3s ease;
+}
+
+.relics-button {
+    background-color: rgba(0, 17, 86, 0.182);
+    border-radius: 5px;
+}
+
+.relics-button:hover {
+    background-color: rgb(0, 17, 86);
+    transition: background-color 0.3s ease;
+}
+
+.about-us-button {
+    background-color: rgba(0, 17, 86, 0.182);
+    border-radius: 5px;
+}
+
+.about-us-button:hover {
+    background-color: rgb(0, 17, 86);
+    transition: background-color 0.3s ease;
+}
+
+.login-button {
+    background-color: rgb(0, 17, 86);
+    border-radius: 20px;
+}
+
+.login-button:hover {
+    background-color: rgba(0, 31, 156, 0.822);
+    transition: background-color 0.3s ease;
+    border: 2px solid rgba(0, 31, 156, 0.822);
+}
+
+/*-----------------Кнопка "Watch"-----------------*/
+.watch-button {
+    display: inline-block;
+    padding: 0.4rem 1.3rem;
+    font-size: 1rem;
+    text-align: center;
+    border: 2px solid rgb(0, 17, 86);
+    cursor: pointer;
+    background-color: rgba(0, 17, 86, 0.182); /* Колір фону */
+    color: white; /* Колір тексту */
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.watch-button:hover {
+    background-color: rgb(0, 17, 86);
+}
+
+.buy-button {
+    display: inline-block;
+    padding: 0.4rem 1.3rem;
+    font-size: 1rem;
+    text-align: center;
+    border: 2px solid rgb(0, 17, 86);
+    cursor: pointer;
+    background-color: rgba(0, 17, 86, 0.44); /* Колір фону */
+    color: white; /* Колір тексту */
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    position: absolute;
+    bottom: 130px;
+    left: 957px;
+    animation: fadeInUp 0.5s ease-in-out 0.2s;
+    animation-fill-mode: both;
+}
+
+.buy-button:hover {
+    background-color: rgb(0, 17, 86);
+}

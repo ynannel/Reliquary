@@ -1,0 +1,61 @@
+.desktop-main-menu {
+    margin-right: 30px;
+}
+
+.desktop-main-menu ul {
+    display: flex;
+    gap: 2rem;
+}
+
+.desktop-main-menu ul li {
+    position: relative;
+    display: inline-block;
+    margin-right: 30px;
+    padding-bottom: 2px;
+}
+
+/* Приховане меню за замовчуванням */
+.desktop-main-menu ul li ul.drop-down {
+    display: none;
+    position: absolute;
+    background-color: rgb(0, 17, 86);
+    padding: 5px 0;
+    width: 81%;
+    border-radius: 8px; /* Закруглені кути */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Легка тінь */
+    transition: opacity 0.3s ease, visibility 0.3s ease; /* Плавний перехід */
+    opacity: 0;
+    visibility: hidden;
+}
+
+/* Відображення меню при наведенні на Relics */
+.desktop-main-menu ul li.dropdown:hover ul.drop-down {
+    display: block;
+    opacity: 1;
+    visibility: visible;
+}
+
+/* Стиль для посилань у випадаючому меню */
+.desktop-main-menu ul li ul.drop-down li a {
+    display: block;
+    padding: 8px 10px;
+    color: #ffffff;
+    text-align: left;
+    font-size: 15px;
+    transition: background-color 0.2s ease;
+}
+
+/* Фон при наведенні */
+.desktop-main-menu ul li ul.drop-down li a:hover {
+    color:rgb(157, 157, 157); /* Темний відтінок синього */
+}
+
+
+/*-----------------Menu item-----------------*/
+.desktop-main-menu ul li a {
+    position: relative;
+    display: block;
+    padding-bottom: 2px;
+    color: rgb(255, 255, 255);
+    transition: color 0.3s ease;
+}

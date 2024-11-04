@@ -1,0 +1,75 @@
+section {
+    position: relative;
+    height: 100vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-transform: uppercase;
+}
+
+.section-inner {
+    position: absolute;
+    bottom: 140px;
+    left: 220px;
+    max-width: 560px;
+    color: #000000;
+}
+
+.section-inner2 {
+    position: absolute;
+    bottom: 180px;
+    left: 150px;
+    max-width: 560px;
+    color: #000000;
+    display: inline-block;
+    padding: 1.3rem 1.3rem;
+    font-size: 1rem;
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.623);
+    border-radius: 10px;
+    filter: drop-shadow(-5px 5px 10px #000);
+}
+
+.section-inner h2 {
+    font-size: 32px;
+    margin-bottom: 5px;
+    font-weight: 400;
+    animation: fadeInUp 0.5s ease-in-out;
+    color: #000000;
+}
+
+.section-inner2 h2 {
+    font-size: 32px;
+    margin-bottom: 5px;
+    font-weight: 400;
+    animation: fadeInUp 0.5s ease-in-out;
+    color: #000000;
+}
+
+.section-inner h5 {
+    font-size: 18px;
+    font-weight: 200;
+    margin-bottom: 20px;
+    animation: fadeInUp 0.5s ease-in-out 0.1s;
+    animation-fill-mode: both;
+    color: #000000;
+}
+
+.section-inner2 h5 {
+    font-size: 18px;
+    font-weight: 200;
+    margin-bottom: 5px;
+    animation: fadeInUp 0.5s ease-in-out 0.1s;
+    animation-fill-mode: both;
+    color: #000000;
+}
+
+.section-inner a {
+    animation: fadeInUp 0.5s ease-in-out 0.2s;
+    animation-fill-mode: both;
+}
+
+.section-inner2 a {
+    animation: fadeInUp 0.5s ease-in-out 0.2s;
+    animation-fill-mode: both;
+}
