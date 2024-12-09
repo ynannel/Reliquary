@@ -111,6 +111,31 @@
     line-height: 57px;
 }
 
+.input-box.success input {
+    border-color: aquamarine;
+}
+
+.input-box.error input {
+    border-color: rgb(252, 84, 84);
+    box-shadow: 0 0 5px rgb(252, 84, 84);
+}
+
+.input-box .error {
+    color: rgb(252, 84, 84);
+    font-size: 9px;
+    height: 12px;
+    margin-top: 5px;
+    display: none;
+}
+
+.input-box.error .error {
+    display: block;
+}
+
+.input-box.success .error {
+    display: none;
+}
+
 .remember-forgot {
     font-size: .8em;
     color: rgb(0, 17, 86);

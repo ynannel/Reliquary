@@ -1,0 +1,21 @@
+
+.trail {
+    position: absolute;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    background-color: rgb(0, 52, 90);
+    pointer-events: none;
+    animation: trail-animation 0.5s ease-out forwards;
+}
+
+@keyframes trail-animation {
+    0% {
+        transform: scale(1);
+        opacity: 1;
+    }
+    100% {
+        transform: scale(0);
+        opacity: 0;
+    }
+}
